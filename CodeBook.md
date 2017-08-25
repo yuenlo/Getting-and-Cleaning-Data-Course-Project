@@ -25,6 +25,7 @@ This code book explains the transformation that is performed in the script run_a
 Each row contains a single observation with the following variables (total of 68 variables):
 * Subject - type numeric - unique identifier of the 30 volunteers that participated in the experiments
 * Activity - type character - one of the six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) each person performed when the data was measured
+
 For detailed description of the remaining variables (they all have the type numeric), please refer to features_info.txt in the raw data files:
 * tBodyAcc_mean_X
 * tBodyAcc_mean_Y

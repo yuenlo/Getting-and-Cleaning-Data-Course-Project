@@ -8,8 +8,6 @@ Run run_analysis.R
 The script will output the file tidydata.txt.
 You can view the file with the following code:
 ```
-address <- "https://github.com/yuenlo/Getting-and-Cleaning-Data-Course-Project/blob/master/tidydata.txt"
-address <- sub("^https", "http", address)
-data <- read.table(url(address), header = TRUE)
+data <- read.table(<path to tidydata.txt>), header = TRUE)
 View(data)
 ```
